@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { LucideIcon, Layout, Tool, LineChart } from "lucide-react";
+import { LucideIcon, Layout, Wrench, LineChart } from "lucide-react";
 
 interface FeatureCardProps {
   title: string;
@@ -9,7 +9,7 @@ interface FeatureCardProps {
 
 const iconMap: Record<string, LucideIcon> = {
   Layout,
-  Tool,
+  Tool: Wrench,
   LineChart,
 };
 
